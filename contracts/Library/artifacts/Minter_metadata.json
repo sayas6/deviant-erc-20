@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "Finished",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "finishMint",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "minting",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Library/Minter.sol": "Minter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Interface/IERC20.sol": {
+			"keccak256": "0xf9543a35636b9e4b827fc49954bcb8dc3684018a13f924740d21e95c7a77cf2b",
+			"urls": [
+				"bzz-raw://b312ecbc34506e36354ba08902311cb4d026862dd28c37bd8d72900696782eb4",
+				"dweb:/ipfs/QmSnt48XQctUsiobWPmjVWrvvVknCT6VBt2n6KSGJLTCNb"
+			]
+		},
+		"contracts/Library/Minter.sol": {
+			"keccak256": "0x1ca0fc7929c91c03e44e0d69c068df01157120834cf30373a37ab4ff69147dbc",
+			"urls": [
+				"bzz-raw://73fc5254e26cfab1f8b06fd14d60d44f4077215ce4214b8bd9eaabd4f6bf92f2",
+				"dweb:/ipfs/QmQkxK4Jq8zVNTbnN5jTjgCHLRh7r7ZXRq2uSejaptkBra"
+			]
+		},
+		"contracts/Library/Ownable.sol": {
+			"keccak256": "0x301c4b0d1ff69bcd97e1139c749c993d70fe5052d81934489b97ef75ad4dddbd",
+			"urls": [
+				"bzz-raw://96ebd9610a3006aa66fa0afef3baaa575d7a7ecddb30f5bea0d4e9a102a62608",
+				"dweb:/ipfs/QmQifuLT7ZQUhRWGHEk6x9vJXox62HqsdrfL4x3FFf14mG"
+			]
+		}
+	},
+	"version": 1
+}

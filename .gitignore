@@ -1,0 +1,6 @@
+build/
+migrationresult/
+node_modules/
+truffle-config.js.default
+truffle-config.js.ganache
+address

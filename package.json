@@ -1,0 +1,20 @@
+{
+  "name": "deviant-erc20-token",
+  "version": "1.0.0",
+  "description": "deviant token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sayas",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@truffle/hdwallet-provider": "^2.0.1",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-token-test-utils": "^1.0.0"
+  }
+}
